@@ -7,6 +7,10 @@
 
 #include <string.h>
 
+#define LEVELDB_PLATFORM_POSIX
+#define LEVELDB_IS_BIG_ENDIAN 1//mac大端存储
+
+
 // Include the appropriate platform specific file below.  If you are
 // porting to a new platform, see "port_example.h" for documentation
 // of what the new port_<platform>.h file must provide.
